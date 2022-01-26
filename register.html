@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Register</title>
+</head>
+<body>
+     <!--Navigation bar & hero section below-->
+     <section class="top">
+        <header>
+            <p>Burger Palace</p>
+            <ul class="navbar">
+                <li><a href="index.html#About">About</a></li>
+                <li><a href="index.html#Menu">Menu</a></li>
+                <li><a href="index.html#Contact">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </header>
+
+        <form action="includes/register.inc.php" method="post" class="register-form">
+            <input placeholder="Name" name="name" class="register-name" autocomplete="off" required>
+            <input placeholder="email" name="email" class="register-email" type="email" autocomplete="off" required>
+            <input placeholder="password" name="password" type="password" class="register-password" required>
+            <button class="register-btn" name="submit" type="submit">Register</button>
+        </form>
+    </section>    
+    <script src="script.js"></script>
+</body>
+</html>

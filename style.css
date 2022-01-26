@@ -45,6 +45,7 @@ header{
     list-style: none;
     display:inline-block;
     width:100px;
+    text-align: center;
 }
 
 .navbar li a{
@@ -302,3 +303,79 @@ textarea{
 .btn-4:active{
     box-shadow: 1px 1px 11px black;
 }
+
+/*Contact Form ENDS*/
+
+/*Register Form BEGINS*/
+.register-name, .register-email, .register-password{
+    width:400px;
+    height:50px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Bangers', cursive;
+    outline: none;
+    font-weight:bold;
+    border-radius: 15px;
+    border: 3px solid black;
+}
+
+.register-form{
+    width:427px;
+    height:300px;
+    position: absolute;
+    margin: 150px 470px;
+    box-shadow: 1px 1px 11px black;
+    border-radius: 25px;
+    background: black;
+    background:linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+}
+
+.register-btn{
+    position: absolute;
+    top:85%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    color:black;
+    font-size: 30px;
+    font-family: 'Bangers', cursive;
+    background:rgb(255, 255, 86);
+    padding:15px;
+    border: 0px solid white;
+    opacity: 80%;
+    border-radius: 30px;
+    width:400px;
+    height:50px;
+}
+
+.register-btn:hover{
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.register-btn:active{
+    box-shadow: 1px 1px 16px white;
+}
+
+/*Register Form ENDS*/
+
+/* Thank You Message Page BEGINS */
+
+.thanks-header{
+    position: absolute;
+    top:50%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    color:rgb(255, 255, 255);
+    font-size: 150px;
+    font-family: 'Bangers', cursive;
+    margin:0px 30px;
+    text-shadow: 20px 20px rgb(0, 0, 0);
+}
+
+.Go-back{
+    text-decoration: none;
+    color:white;
+}
+/* Thank You Message Page ENDS */
+
+/*login.inc.php page*/
