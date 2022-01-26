@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--Navigation bar & hero section below-->
+    <section class="top">
+        <header>
+            <p>Burger Palace</p>
+            <ul class="navbar">
+                <li><a href="#About">About</a></li>
+                <li><a href="#Menu">Menu</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </header>
+        <h1 class="home-header">Burgers on the go</h1>
+        <button><a href="#About" class="let-me">Learn More</a></button>
+    </section>
+
+
+    <!--About section below-->
+    <section class="about-section" id="About">
+        <!--map contains the Google map api information-->
+        <div id="map" style="width:490px;height:490px;" class="google-api">
+        </div>
+        <h2>About</h2>
+        <p class="about-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga modi, labore explicabo consectetur ea itaque officiis iure, ad delectus minus atque porro libero vel tempore ut. Fugit nulla minima molestias?</p>
+        <h4 class="opening-times-text">Opening Times: Mon-Sat 08:00-23:00 <br> Sunday Closed</h4>
+    </section>
+
+    <!--Menu section below-->
+    <section class="menu-section" id="Menu">
+        <div class="food-container">
+            <div class="food-image1">
+                
+            </div>
+            <p class="food1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut voluptas corporis pariatur magni sed quos, quaerat non odio, eaque repellat obcaecati aperiam dignissimos iure incidunt cumque in laborum officia laboriosam!</p>
+            
+            <div class="food-image2">
+                
+            </div>
+            
+        </div>
+    </section>
+
+    <!--Contact Form below-->
+    <section class="contact-section" id="Contact">
+        <h1 class="contact-header">Contact</h1>
+        <form action="" method="POST" class="contact-form" >
+            <input placeholder="First Name" id="firstname" autocomplete="off" required>
+            <input placeholder="Last Name" id="lastname" autocomplete="off" required>
+            <input placeholder="Email" id="email" autocomplete="off" type="email" required>
+            <textarea placeholder="Message" id="message" autocomplete="off" required></textarea>
+        </form>
+        <a class="btn-4" id="submit">Submit</a>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC2ZOOoY0T_Z-BXajRx1TgsNc3GJr9_aQw&callback=myMap"></script>
+</body>
+</html>

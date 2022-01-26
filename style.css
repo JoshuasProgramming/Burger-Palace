@@ -1,0 +1,304 @@
+/* Importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+/* Reset page in CSS */
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-size: 100%;
+    font-family: 'Bangers', cursive;
+}
+
+div, section, span, ul, li, a{
+    box-sizing: border-box;
+}
+
+/*Font family for paragraghs*/
+p{
+    font-family: 'Bangers', cursive;
+    font-size:35px;
+    margin:-6px;
+}
+
+/*Navigation bar BEGINS*/
+header{
+    width:95%;
+    height: 20px;
+    display:flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    position: fixed;
+    z-index: 999;
+    background-color: black;
+    color:whitesmoke;
+    box-shadow: 1px 1px 11px black;
+}
+
+.navbar{
+    text-align:right;
+}
+
+.navbar li{
+    list-style: none;
+    display:inline-block;
+    width:100px;
+}
+
+.navbar li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+.navbar li a:hover{
+    border-bottom: 2px solid white;
+}
+/*Navigation bar ENDS*/
+
+/* Hero Section BEGINS*/
+section{
+    width:100%;
+    float: left;
+    height: 100vh;
+    position: relative;
+}
+
+.top{
+    background-image: url(image2.jpg);
+    background-size:cover;
+    min-height: 50%;
+}
+
+.home-header{
+    position: absolute;
+    top:50%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    color:rgb(255, 255, 255);
+    font-size: 150px;
+    font-family: 'Bangers', cursive;
+    margin:0px 30px;
+    text-shadow: 20px 20px rgb(0, 0, 0);
+}
+
+.let-me{
+    color:white;
+    text-decoration: none;
+}
+
+button{
+    position: absolute;
+    top:85%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    color:whitesmoke;
+    font-size: 45px;
+    font-family: 'Bangers', cursive;
+    background:black;
+    padding:15px;
+    border: 0px solid white;
+    opacity: 85%;
+    border-radius: 30px;
+}
+
+button:hover{
+    cursor: pointer;
+    opacity:100%;
+}
+
+button:active{
+    box-shadow: 1px 1px 11px black;
+}
+
+/*Hero Section ENDS*/
+
+/*About Section BEGINS*/
+.about-section{
+    background-color:rgb(255, 255, 113);
+    height:727px;
+}
+
+.google-api{
+    top:11%;
+    left:10%;
+    color:black;
+    font-size: 50px;
+    font-family: "Amatic SC", sans-serif;
+    margin:0px 10px;
+    text-shadow:5px 5px white;
+    border-radius: 15px;
+    box-shadow: 1px 1px 19px black;
+}
+
+h2{
+    position: absolute;
+    top:15%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    color:rgb(255, 255, 255);
+    font-size: 120px;
+    font-family: 'Bangers', cursive;
+    margin:0px 30px;
+    text-shadow: 10px 10px rgb(0, 0, 0);
+}
+
+.about-text{
+    position: absolute;
+    top:63%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    color:rgb(0, 0, 0);
+    font-size: 35px;
+    font-family: 'Bangers', cursive;
+    margin:0px 30px;
+}
+
+.opening-times-text{
+    top:0%;
+    left:20%;
+    color:black;
+    font-size: 40px;
+    font-family: 'Bangers', cursive;
+    margin:120px 130px;
+    text-shadow: 5px 5px rgb(255, 255, 255);
+}
+/*About Section ENDS*/
+
+/*Menu Section BEGINS*/
+
+.menu-section{
+    background-color:rgb(0, 0, 0);
+    height:727px;
+}
+
+.food-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    grid-template-rows:100%;
+    grid-gap: 50px;
+    align-items:end;
+}
+
+.food-image1{
+    background-image: url(food-image1.jpg);
+    background-size:cover;
+    min-height: 95%;
+    width:350px;
+    border-radius: 25px;
+}
+
+.food-image2{
+    background-image: url(food-image2.jpg);
+    background-size:cover;
+    min-height: 95%;
+    min-width: 90%;
+    width:780px;
+    border-radius: 25px;
+}
+
+.food1{
+    font-family: 'Bangers', cursive;
+    font-size:22px;
+    color: white;
+    margin:10px 40px;
+    margin-left: 150px;
+}
+
+.food2{
+    font-family: 'Bangers', cursive;
+    font-size:30px;
+    color: white;
+    margin:-20px 40px;
+}
+
+.food3{
+    font-family: 'Bangers', cursive;
+    font-size:30px;
+    color: white;
+    margin:-20px 30px;
+}
+
+/*Menu Section ENDS*/
+
+/*Contact Form BEGINS*/
+
+.contact-section{
+    background-color:rgb(255, 255, 113);
+    height:1400px;
+}
+
+.contact-header{
+    position: absolute;
+    top:20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:black;
+    font-size: 150px;
+    font-family: 'Bangers', cursive;
+    margin:0px 30px;
+    text-shadow:5px 5px white;
+}
+
+.contact-form{
+    position: absolute;
+    top:30%;
+    left: 15%;
+    color:black;
+    font-size: 49px;
+    font-weight: bold;
+    font-family: 'Bangers', cursive;
+    margin:0px 30px;
+}
+
+input{
+    width:900px;
+    height:100px;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Bangers', cursive;
+    outline: none;
+    margin: 10px;
+    font-weight:bold;
+    border-radius: 15px;
+    border: 3px solid black;
+}
+
+textarea{
+    width:900px;
+    height:280px;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Bangers', cursive;
+    outline: none;
+    margin: 10px;
+    font-weight: bold;
+    border-radius: 15px;
+    border: 3px solid black;
+}
+
+.btn-4{
+    position: absolute;
+    top:90%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    width:200px;
+    font-size:100px;
+    color: white;
+    text-decoration: none;
+    width:300px;
+    background:black;
+    text-align: center;
+    opacity: 90%;
+}
+
+.btn-4:hover{
+    opacity:100%;
+    cursor: pointer;
+}
+
+.btn-4:active{
+    box-shadow: 1px 1px 11px black;
+}
