@@ -57,6 +57,16 @@ header{
 .navbar li a:hover{
     border-bottom: 2px solid white;
 }
+
+.landing-direct{
+    text-decoration:none;
+    color:white;
+}
+
+.landing-direct:hover{
+    border-bottom:3px solid white;
+    cursor:pointer;
+}
 /*Navigation bar ENDS*/
 
 /* Hero Section BEGINS*/

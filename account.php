@@ -46,9 +46,9 @@ that information by making a sql query--->
 </head>
 <body>
     <!--Navigation bar & hero section below-->
-    <section class='top'>
+    <section class='top' id='landingPage'>
         <header>
-            <p>Burger Palace</p>
+            <p><a href='index.html#landingPage' class='landing-direct'>Burger Palace</a></p>
             <ul class='navbar'>
                 <li><a href='../index.html#About'>About</a></li>
                 <li><a href='../index.html#Menu'>Menu</a></li>

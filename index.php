@@ -32,13 +32,13 @@ echo "
 <link rel='stylesheet' href='style.css'>
 <body>
      <!--Navigation bar & hero section below-->
-     <section class='top'>
+     <section class='top' id='landingPage'>
         <header>
-            <p>Burger Palace</p>
+            <p><a href='index.html#landingPage' class='landing-direct'>Burger Palace</a></p>
             <ul class='navbar'>
-                <li><a href='../index.html#About'>About</a></li>
-                <li><a href='../index.html#Menu'>Menu</a></li>
-                <li><a href='../index.html#Contact'>Contact</a></li>
+                <li><a href='index.html#About'>About</a></li>
+                <li><a href='index.html#Menu'>Menu</a></li>
+                <li><a href='index.html#Contact'>Contact</a></li>
                 <li><a href='account.php' class='change-color'>"; echo $_SESSION['name'];"</a></li>";
                 echo "
                 <li><a href='logout.php' title='logout'>Logout</a></li>
