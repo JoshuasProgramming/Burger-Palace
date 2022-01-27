@@ -1,3 +1,5 @@
+<!---File was used to create the table 'users' in the PHPMyAdmin database-->
+
 <?php
 $servername = "localhost";
 $username = "root";
