@@ -7,6 +7,9 @@ This website was created for a made up fast food chain company called "Burger Pa
 * The website uses a Google maps API. This gives the user a clear idea where the company is located.
 * PHP, MYSQL and a PHPMyAdmin database server allows user's to register, login, update and delete their information (CRUD functionality).
 * User can logout of their account.
+* 
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/7QRZxBB6FBk/0.jpg)](https://www.youtube.com/watch?v=7QRZxBB6FBk)
 
 ## pages
 * ### landing page
